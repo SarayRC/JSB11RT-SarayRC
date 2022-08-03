@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio Flex</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+ <!--  Edita el fichero `index.html` para que muestre un formulario con las siguientes características:
+
+  - Debe estar organizado en tres fieldsets (personalizar hamburguesa, datos de entrega y método de pago)
+  
+  - En el primer fieldset debe haber un apartado para escoger los ingredientes deseados y otro para escoger el tamaño (se pueden seleccionar varios ingredientes, pero sólo un tamaño)
+  
+  - El segundo fielset debe tener estos campos:
+  
+    - Nombre, control tipo text, obligatorio.
+    - Dirección, control tipo text, obligatorio.
+    - Teléfono, control tipo tel, obligatorio.
+    - Instrucciones especiales, textarea.
+  
+  - El tercer fieldet debe tener un desplegable donde seleccionas el método de pago deseado, obligatorio.
+  
+  - Al final del formulario, debe haber un botón de enviar.
+  
+  - Todos los campos deben tener su label asociado mediante la propiedad for.
+  
+  -Recuerda que puedes meter un fieldset dentro de otro si lo consideras conveniente. 
+  
+  El HTML resultante debe ser validado por el [validador de HTML de la W3](https://validator.w3.org/#validate_by_input) y no dar ningún error.
+  
+  A continuación maqueta el formulario para que tenga un aspecto como el de esta imagen.
+  
+  Para practicar selectores, intenta no seleccionar elementos por clase o id en tu fichero css.
+  
+  ![Aspecto formulario](./formulario.png)
+  
+  El HTML resultante debe ser validado por el [validador de HTML de la W3](https://validator.w3.org/#validate_by_input) y no dar ningún error. -->
+  <body>
+    <header>
+      
+    </header>
+    <form>
+    <fieldset>
+      <legend>Personalizar hamburguesa</legend>
+      <h2>Ingredientes</h2><!-- A usado otro fieldset y usado h2, pero para personalizar hamburgesa ha usado h1 dentro del fieldset -->
+      
+      <div>  
+<label for="queso">Queso</label>
+<input type="checkbox" id="queso" name="queso">
+
+<label for="Pimiento">Pimiento</label>
+<input type="checkbox" id="Pimiento" name="Pimiento">
+
+<label for="Cebolla">Cebolla</label>
+<input type="checkbox" id="Cebolla" name="Cebolla">
+
+<label for="Jamón">Jamón</label>
+<input type="checkbox" id="Jamón" name="Jamón">
+
+<label for="Huevo">Huevo</label>
+<input type="checkbox" id="Huevo" name="Huevo">
+</div>
+      
+    </fieldset>
+  </form>
+  </body>
+</html>

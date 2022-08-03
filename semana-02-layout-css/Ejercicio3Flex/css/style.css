@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+*{
+    background-image : url(../img/hamburguesa.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+fieldset{
+    border: 0;
+}
+legend{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: darkblue;
+    text-align: center;
+}
+h2{
+    color: darkblue;
+    font-size: medium;
+    text-align: center;
+}
+div{
+    flex: auto;
+    text-align: center;
+}
