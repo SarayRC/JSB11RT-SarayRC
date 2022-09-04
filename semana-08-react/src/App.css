@@ -1,0 +1,21 @@
+* {
+  margin: 1rem;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: lightblue;
+}
+
+p {
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
